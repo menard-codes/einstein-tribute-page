@@ -1,7 +1,7 @@
 
 
 /* 
-Gonna define media query for smaller devices later
+Gonna define media query for smaller devices later (for cover)
 */
 
 html, body {
@@ -18,8 +18,10 @@ img {
 }
 
 
+
+
 .container {
-    min-height: 700px;
+    min-height: 10vh;
     width: 100%;
 }
 
@@ -59,7 +61,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  top: 100px;
+  top: 10vh;
   max-width: 80%;
   position: relative;
   margin: auto;
@@ -164,14 +166,66 @@ img {
 
 
 
+/* for space */
+
+.space {
+  min-height: 10vh;
+  background-color: rgba(0,0,0);
+}
+
+/* end of space */
 
 
-/* 
+
+
+
+ 
 .quotes {
-    background-color: coral;
+    background-color: #fff;
+    top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.quote {
+  position: relative;
+  padding: 0 5%;
+  font-size: 5vw;
+}
+
+.author {
+  text-align: end;
+  margin-right: 10vw;
+  font-size: 4vw;
 }
 
 
+
+
 .footer {
-    background-color:cornflowerblue;
-} */
+    background-color:rgb(15, 15, 15);
+    color: #fff;
+    text-align: center;
+    padding: 0 16%;
+    font-family: 'EB Garamond', serif;
+    font-size: 2vw;
+}
+
+.footer a {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(177, 177, 31);
+  display: block;
+}
+
+.footer a:hover {
+  color: rgb(241, 241, 44);
+}
+
+
+.footer p {
+  margin: 0;
+  padding: 3vh;
+}
+
